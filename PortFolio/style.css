@@ -266,9 +266,9 @@ background-size: 10px 10px;
 
 
 }
-.about .title::after {
+/* .about .title::after {
  
-}
+} */
 .about .about-content .left {
   width: 45%;
 }
@@ -415,9 +415,7 @@ background-size: 10px 10px;
 #github_img{
   height: 80px;
 }
-.skills .title::after {
 
-}
 
 /* skills right column */
 .skills .skills-content .column {
@@ -495,9 +493,7 @@ background-size: 10px 10px;
 }
 
 /* project section styling */
-.project .title::after {
 
-}
 .project .carousel .card {
   background: whitesmoke;
   border-radius: 6px;
@@ -609,9 +605,7 @@ background-size: 10px 10px;
   background-color:  rgb(171, 52, 204);
   color: #fff;
 }
-.contact .title::after {
 
-}
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
