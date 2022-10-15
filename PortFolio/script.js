@@ -71,3 +71,10 @@ $(document).ready(function () {
       },
     });
   });
+
+
+  let gotoprojects = () => {
+    var el = document.getElementById("projectlist");
+    el && el.scrollIntoView(true);
+    window.scrollBy(0, 2650);
+}

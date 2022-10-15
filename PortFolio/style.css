@@ -495,7 +495,7 @@ background-size: 10px 10px;
 /* project section styling */
 
 .project .carousel .card {
-  background: whitesmoke;
+  background: rgb(228, 226, 226);
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -504,8 +504,8 @@ background-size: 10px 10px;
 }
 .project .carousel .card:hover {
   /* background: rgb(112, 89, 94); */
-  color: white;
-  color: rgba(255, 255, 255, 0.735);
+  color: rgb(241, 205, 252);
+  color: black;
   /* change */
 }
 .project .carousel .card .box {
@@ -845,4 +845,13 @@ footer span a:hover {
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+.newbuttons{
+  width:6rem;
+  padding:3px; 
+  font-size: 15px; 
+  background-color: rgb(180, 70, 172); 
+  border: none; 
+  border-radius: 4px;
 }
