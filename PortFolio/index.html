@@ -32,12 +32,14 @@
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>folio.</span></a></div>
+            <div>
+                <button  onclick="gotoprojects()"; style="background:transparent; border:none; font-size:21px; font-weight:bold; color:black; margin-right:100px; cursor: pointer;" > My Projects</button>
+            </div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <!-- <li><a href="#services" class="menu-btn">Services</a></li> -->
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
@@ -50,9 +52,9 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
+                <div class="text-1">Java Backend Developer</div>
                 <div class="text-2">Jyoti Pardhi</div>
-                <div class="text-3">And I'm a Backend Developer</div>
+                <div class="text-3" style="font-size:18px">Ability is what you’re capable of doing. Motivation determines what you do. Attitude determines how well you do it.</div>
                 <a href="https://drive.google.com/file/d/10lY_7N0o30qTEa2__tpLtO_X8WrLIkWG/view?usp=sharing" target="_blank">Resume</a>
             </div>
         </div>
@@ -64,10 +66,10 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                   <img src="./images/.png" alt="">
+                   <img src="https://user-images.githubusercontent.com/105926905/195958119-e580ef3f-3b06-41e1-a5bb-3c38544f8b9f.png" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Jyoti Pardhi and I'm a <span class="typing-2"></span></div>
+                    <div class="text">I'm Jyoti Pardhi <span class="typing-2"></span></div>
                     <p>An aspiring JAVA Back-End Developer, Dedicated to developing robust applications that interact with the Backend part of web applications. Expertise in website architecture, design, and web design, and web API designs. Problem-solving mindset with a goal to optimize my application for better stability and speed.</p>
                     <!-- <a href="#">Download CV</a> -->
                 </div>
@@ -117,9 +119,10 @@
                         <img src="./images/java.svg" alt="javaSvg">
                     </div>
 
-                    <div class="skills-images" id="hibernate_img">
-                        <img src="./images/hibernatesvg.svg" alt="">
+                    <div class="skills-images" id="html_img">
+                        <img src="./images/html.svg" alt="">
                     </div>
+
 
                     
                     <div class="skills-images">
@@ -155,13 +158,13 @@
     </section>
 
     <!-- project section start -->
-    <section class="project" id="project">
+    <!-- <section class="project" id="project">
         <div class="max-width">
             <h2 class="title">Projects</h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
-                        <img src="https://camo.githubusercontent.com/6deb64834cb1d78bd160c35484eeefeff85a8a73fff82ebf3de40a0ff851227d/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a552d79376f7632495269586c616176477055653974672e6a706567" alt="">
+                        <img src="https://user-images.githubusercontent.com/105926905/195958896-7343e1bf-2f4c-4e6d-b67b-05375b729261.png" alt="">
                         <div class="text">Overstock Clone</div>
                         <p>Inspired by overstock.com,Inc. is an American internet retailer selling primarily furniture. Created a clone of it with the functionalities of the original One..</p>
                         <p class="techStack">Tech Used: Html, CSS, JavaScript</p>
@@ -177,7 +180,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="./images/myhours.png" alt="">
+                        <img src="https://user-images.githubusercontent.com/105926905/195958912-dd6a76b2-73d5-41aa-8f10-5294c22e5a62.png" alt="">
                         <div class="text">Myhours.com</div>
                         <p>An All-in-one Hour Tracking Solution with Cost Calculations, Screenshots & Integrations. Boost Productivity and Follow Projects in Real Time with Company hour tracking.</p>
                         <p class="techStack">Tech Used: Html, CSS, JavaScript</p>
@@ -193,10 +196,10 @@
                 </div>
 
 
-            <!-- next project adding -->
-            <div class="card">
+            next project adding
+             <div class="card">
                 <div class="box">
-                    <img src="./images/redbus.png" alt="">
+                    <img src="https://user-images.githubusercontent.com/105926905/195958908-f5c2bb03-b382-44e8-87b2-f9f1e1ba3024.png" alt="">
                     <div class="text">Redbus clone </div>
                     <p>redBus is the world's leading bus ticket booking company. It operates in 6 countries (India, Malaysia, Singapore, Indonesia, Peru, and Colombia).</p>
                     <p class="techStack">Tech Used: Html, CSS, JavaScript </p>
@@ -209,82 +212,59 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <!-- </div> -->
+        <!-- </div>
+    </section> --> -->
+    <h1 style="text-align:center; font-size: 40;">My Projects</h1><br><br>
 
-
-                       </div>
-        </div>
-    </section>
-
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Got a project? Reach out and let's work together on something exciting. Big or small. Mobile or web.</p>
-                    <div class="icons">
-                        <div class="row">
-                            <a href="mailto:pardhijyoti08@gmail.com"> <i class="fas fa-envelope"></i> </a>
-                            <div class="info">
-                                <div class="head"></div>
-                                <div class="sub-title">  <a href="mailto: pardhijyoti08@gmail.com"> pardhijyoti08@gmail.com</a> </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                             <a href="https://www.linkedin.com/in/jyoti-pardhi-5b783b14b" target="_blank"> <i class="fab fa-linkedin"></i> </a>
-                            <div class="info">
-                                <!-- <div class="head">Address</div> -->
-                                <div class="sub-title">  <a href="https://www.linkedin.com/in/jyoti-pardhi-5b783b14b" target="_blank">Linkedin</a> </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                             <a href="https://github.com/JyotiP123" target="_blank"> <i class="fab fa-github"></i> </a>
-                            <div class="info">
-                                <!-- <div class="head">Email</div> -->
-                                <div class="sub-title"> <a href="https://github.com/JyotiP123" target="_blank" >GitHub</a> </div>
-                            </div>
-                        </div>
-                          
-                        <div class="row">
-                            <a > <span class="material-symbols-outlined">
-                                phone_iphone
-                                </span> </a>
-                           <div class="info">
-                               <!-- <div class="head">Email</div> -->
-                               <div class="sub-title"> +91 8208955208 </div>
-                           </div>
-                       </div>
-                        
-
-                    </div>
-                </div>
-                <!-- <div class="column right">
-                    <div class="text">Message me</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button type="submit">Send message</button>
-                        </div>
-                    </form>
-                </div> -->
+    <div id="projectlist" style="width: 80%; margin: auto; text-align:center; display:flex; justify-content: space-between;">
+        <div style="width:30%; height: 30rem; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; ">
+            <h1 style="margin-top:20px;">Overstock Clone</h1>
+            <br>
+            <img style="width:80%; height:12rem; margin-bottom: 8px;" src="https://user-images.githubusercontent.com/105926905/195958896-7343e1bf-2f4c-4e6d-b67b-05375b729261.png" alt="">
+            <br>
+            <p>Inspired by overstock.com,Inc. is an American internet retailer selling primarily furniture. Created a clone of it with the functionalities of the original One..</p>
+            <br>
+            <h3>Tech Used: Html, CSS, JavaScript</h3>
+            <br>
+            <div>
+                <button class="newbuttons"><a style="text-decoration:none; color: white ;" href="https://github.com/vishqaz/Unit2Project_Overstock">Git Repo</a></button>
+                <button class="newbuttons"><a style="text-decoration:none; color: white ;" href="https://mellifluous-licorice-2028e5.netlify.app/">Live Site</a></button>
             </div>
         </div>
-    </section>
+        <div style="width:30%; height: 30rem; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; ">
+            <h1 style="margin-top:20px;">Myhours Clone</h1>
+            <br>
+            <img style="width:80%; height:12rem; margin-bottom: 8px;" src="https://user-images.githubusercontent.com/105926905/195958912-dd6a76b2-73d5-41aa-8f10-5294c22e5a62.png" alt="">
+            <br>
+            <p>An All-in-one Hour Tracking Solution with Cost Calculations, Screenshots & Integrations. Follow Projects in Real Time with Company hour tracking.</p>
+            <br>
+            <h3>Tech Used: Html, CSS, JavaScript</h3>
+            <br>
+            <div>
+                <button class="newbuttons"><a style="text-decoration:none; color: white ;" href="https://github.com/sushank678/mutual-cart-3380">Git Repo</a></button>
+                <button class="newbuttons"><a style="text-decoration:none; color: white ;" href="https://rococo-paprenjak-bb7bc8.netlify.app/">Live Site</a></button>
+            </div>
+        </div>
+        <div style="width:30%; height: 30rem; box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; ">
+            <h1 style="margin-top:20px;">Redbus Clone</h1>
+            <br>
+            <img style="width:80%; height:12rem; margin-bottom: 8px;" src="https://user-images.githubusercontent.com/105926905/195958908-f5c2bb03-b382-44e8-87b2-f9f1e1ba3024.png" alt="">
+          <br>     
+
+            <p>redBus is the world's leading bus ticket booking company. It operates in 6 countries (India, Malaysia, Singapore, Indonesia, Peru, and Colombia).</p>
+            <br>
+            <h3>Tech Used: Html, CSS, JavaScript</h3>
+            <br>
+            <div>
+               <button class="newbuttons"><a style="text-decoration:none; color: white ;" href="https://github.com/Abhay0123/ripe-theory-3388">Git Repo</a></button>
+                <button class="newbuttons"><a style="text-decoration:none; color: white ;" href="https://phenomenal-kleicha-acfce4.netlify.app/">Live Site</a></button>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
@@ -295,6 +275,8 @@
         <!-- this is the div where your calander will apear -->
     
     </div>
+
+
     
     
     
@@ -304,11 +286,61 @@
         GitHubCalendar(".calendar", "JyotiP123", { responsive: true });
     </script>
     
+        <!-- contact section start -->
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact me</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">Get in Touch</div>
+                        <p>Got a project? Reach out and let's work together on something exciting. Big or small. Mobile or web.</p>
+                        <div class="icons">
+                            <div class="row">
+                                <a href="mailto:pardhijyoti08@gmail.com"> <i class="fas fa-envelope"></i> </a>
+                                <div class="info">
+                                    <div class="head"></div>
+                                    <div class="sub-title">  <a href="mailto: pardhijyoti08@gmail.com"> pardhijyoti08@gmail.com</a> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                 <a href="https://www.linkedin.com/in/jyoti-pardhi-5b783b14b" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+                                <div class="info">
+                                    <!-- <div class="head">Address</div> -->
+                                    <div class="sub-title">  <a href="https://www.linkedin.com/in/jyoti-pardhi-5b783b14b" target="_blank">Linkedin</a> </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                 <a href="https://github.com/JyotiP123" target="_blank"> <i class="fab fa-github"></i> </a>
+                                <div class="info">
+                                    <!-- <div class="head">Email</div> -->
+                                    <div class="sub-title"> <a href="https://github.com/JyotiP123" target="_blank" >GitHub</a> </div>
+                                </div>
+                            </div>
+                              
+                            <div class="row">
+                                <a > <span class="material-symbols-outlined">
+                                    phone_iphone
+                                    </span> </a>
+                               <div class="info">
+                                   <!-- <div class="head">Email</div> -->
+                                   <div class="sub-title"> +91 8208955208 </div>
+                               </div>
+                           </div>
+                            
+    
+                        </div>
+                    </div>
+          
+    
+                </div>
+            </div>
+        </section>
+
     
     <!-- footer section start -->
     <footer>
         <span</span> 
-        Jyoti.</span>
+        </span>
     </footer>
 
   
