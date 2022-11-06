@@ -74,6 +74,26 @@ $(document).ready(function () {
   });
 
 
+let overstock_git = () => {
+    window.open("https://github.com/vishqaz/Overstock", "_blank");
+}
+let overstock_site = () => {
+    window.open("https://mellifluous-licorice-2028e5.netlify.app/", "_blank");
+}
+let myhour_git = () => {
+    window.open("https://github.com/sushank678/mutual-cart-3380", "_blank");
+}
+let myhour_site = () => {
+    window.open("https://silver-sfogliatella-0c9664.netlify.app/", "_blank");
+}
+let redbus_git = () => {
+    window.open("https://github.com/Abhay0123/ripe-theory-3388", "_blank");
+}
+let redbus_site = () => {
+    window.open("https://phenomenal-kleicha-acfce4.netlify.app/", "_blank");
+}
+
+
   let gotoprojects = () => {
     var el = document.getElementById("projectlist");
     el && el.scrollIntoView(true);

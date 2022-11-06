@@ -21,11 +21,11 @@ html {
   background: white;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(218, 150, 236);
+  background: #b0b0e3;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(174, 37, 212);
+  background: #4b4b67;
 }
 
 /* all similar content styling codes */
@@ -83,7 +83,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color:  rgb(171, 52, 204);
+  color:  #53538a;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -100,7 +100,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: rgb(196, 100, 223);
+  background: #605481;
 }
 .navbar .max-width {
   display: flex;
@@ -131,7 +131,7 @@ section .title::after {
 }
 .navbar .menu li a {
   display: block;
-  color:rgb(149, 71, 188) ;
+  color:#454562 ;
   font-size: 22px;
   font-weight: 500;
   margin-left: 25px;
@@ -190,10 +190,10 @@ section .title::after {
 
 .home {
   display: flex;
-  background: url("https://cdn.pixabay.com/photo/2022/04/05/00/25/bokeh-7112555_960_720.jpg") no-repeat center;
+  background: url("https://user-images.githubusercontent.com/105926905/200154902-21acec27-da01-46c1-b124-3664aff562a7.jpg") no-repeat center;
   background-color: white;
   height: 100vh;
-  color: rgb(171, 52, 204)f;
+  color: #2f2f43;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -222,23 +222,23 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: rgb(171, 52, 204);
+  color: #49496d;
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background:  rgb(171, 52, 204);
+  background:  #625381;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 1px solid  rgb(171, 52, 204);
+  border: 1px solid  #b0b0e3;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color:  rgb(171, 52, 204);
+  color:  #625381;
   background: none;
 }
 
@@ -287,7 +287,7 @@ background-size: 10px 10px;
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: rgb(171, 52, 204);
+  color: #625381;
   
 }
 .about .about-content .right p {
@@ -295,23 +295,23 @@ background-size: 10px 10px;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: rgb(171, 52, 204);
+  background: #625381;
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 1px solid rgb(171, 52, 204);
+  border: 1px solid #625381;
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color:  rgb(171, 52, 204);
+  color:  #625381;
   background: none;
 }
 .about .title::after {
   background-image: url("");  
-  color:rgb(171, 52, 204);
+  color:#625381;
 }
 
 /* services section styling */
@@ -352,7 +352,7 @@ background-size: 10px 10px;
 }
 .services .serv-content .card i {
   font-size: 50px;
-  color:  rgb(171, 52, 204);
+  color:  #625381;
   transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i {
@@ -435,18 +435,18 @@ background-size: 10px 10px;
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: rgb(171, 52, 204);
+  background: #625381;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 1px solid  rgb(171, 52, 204);
+  border: 1px solid  #625381;
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color:  rgb(171, 52, 204);
+  color:  #625381;
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -474,7 +474,7 @@ background-size: 10px 10px;
   height: 100%;
   left: 0;
   top: 0;
-  background:  rgb(171, 52, 204);
+  background:  #625381;
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -549,7 +549,7 @@ background-size: 10px 10px;
   align-items: center;
 }
 .techStack {
-  color: purple;
+  color: #625381;
 }
 
 .demo-div a,
@@ -583,7 +583,7 @@ background-size: 10px 10px;
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid  rgb(171, 52, 204) !important;
+  border: 2px solid  #564971 !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -592,7 +592,7 @@ background-size: 10px 10px;
 }
 .owl-dot.active,
 .owl-dot:hover {
-  background:  rgb(171, 52, 204) !important;
+  background:  #564971 !important;
 }
 .skills-images {
   width: 120px;
@@ -602,7 +602,7 @@ background-size: 10px 10px;
 /* contact section styling */
 
 .material-symbols-outlined{
-  background-color:  rgb(171, 52, 204);
+  background-color:  #564971;
   color: #fff;
 }
 
@@ -630,7 +630,7 @@ background-size: 10px 10px;
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color:  rgb(171, 52, 204);
+  color:  #564971;
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -697,12 +697,12 @@ background-size: 10px 10px;
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background:  rgb(171, 52, 204);
-  border: 1px solid  rgb(171, 52, 204);
+  background:  #564971;
+  border: 1px solid  #564971;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover {
-  color:  rgb(171, 52, 204);
+  color:  #564971;
   background: none;
 }
 /* footer section styling */
@@ -713,7 +713,7 @@ footer {
   text-align: center;
 }
 footer span a {
-  color:  rgb(171, 52, 204);
+  color:  #564971;
   text-decoration: none;
 }
 footer span a:hover {
@@ -851,7 +851,80 @@ footer span a:hover {
   width:6rem;
   padding:3px; 
   font-size: 15px; 
-  background-color: rgb(180, 70, 172); 
+  background-color: #564971; 
   border: none; 
   border-radius: 4px;
+  color: white;
+  cursor: pointer;
 }
+
+#projectlist{
+  width: 80%; 
+  margin: auto; 
+  text-align:center; 
+  /* display:flex; 
+  justify-content: space-between; */
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 45rem;
+  gap: 80px;
+
+}
+
+#projectlist > div{
+  width:90%; 
+  padding: 20px;
+  height: 40rem; 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+}
+
+#projectlist img{
+  width:80%; 
+  height:12rem; 
+  margin-bottom: 8px;
+}
+
+@media (max-width:950px){
+  #projectlist {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 30rem;
+  }
+}
+
+@media (max-width:950px){
+  #projectlist {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 40rem;
+  }
+}
+
+
+@media (max-width:650px){
+  #projectlist {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, 35rem);
+  }
+}
+
+
+.calendar{
+  width: 80%;
+}
+
+
+#othergithub{
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 20rem;
+  gap: 50px;
+}
+
+@media (max-width:850px){
+  #othergithub {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 15rem);
+  }
+}
+
