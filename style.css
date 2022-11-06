@@ -906,6 +906,15 @@ footer span a:hover {
   }
 }
 
+@media (max-width:650px){
+  #activitygraph {
+    width: 10rem;
+  }
+}
+
+
+
+
 
 .calendar{
   width: 80%;
